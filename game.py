@@ -91,7 +91,7 @@ class Game:
 
 		while self.player.hit_points and (self.monster or self.monsters):
 			print "\n" +"=" * 20
-			print(self.player)
+			print self.player
 			self.monster_turn()
 			print "\n" +"-" * 20
 			self.player_turn()
